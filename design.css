@@ -1,0 +1,155 @@
+#NavBar{
+    font-family: 'Rubik', sans-serif;
+}
+#NavBar a:hover{
+    background-color: rgb(211, 210, 210);
+}
+
+/* The container <div> - needed to position the dropdown content 
+.nav-item.dropdown {
+    position: relative;
+    display: inline-block;
+}*/
+  
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+/* Links inside the dropdown */
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+  
+/* Show the dropdown menu on hover */
+#log:hover .dropdown-content {display: block;}
+  
+
+#Popular{
+    margin-top:20px;
+}
+
+h1{
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+div.card{
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h3.card-title{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+.card-title a{
+    text-decoration: none;
+    color: black;
+}
+.card-title a:active, .card-title a:hover {
+    color: black;
+}
+
+h4.card-text{
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+#locations ul{
+    list-style-type: none;
+    font-family: 'Rubik', sans-serif;
+}
+
+#locations li{
+    padding: 0.5rem;
+}
+
+footer{
+    font-family: 'Rubik', sans-serif;
+    background-color: rgba(255, 196, 0, 0.404);
+}
+
+.text-dark{
+    text-decoration: none;
+}
+
+#products1 .card.img{
+    height: 200px;
+}
+
+div.row{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+a.btn, #viewItem{
+    background-color: #ffc343;
+    width: 50%;
+    color: black;
+    transition: none;
+    margin-left:3px;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display:inline-block;
+}
+a.btn:hover, #viewItem:hover{
+    background-color: #ffae00;
+}
+#viewItem:active{
+    box-shadow: none;
+}
+
+#addItem{
+    color:white;
+    margin: 0%;
+    text-transform:uppercase;
+    width:100%;
+    background-color: rgb(119, 49, 2);
+}
+
+h2{
+    font-size:1rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+#Quantity{
+    width:4rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+p.card-text{
+    text-align: justify;
+}
+
+.card.mb-3{
+    width:75%;
+}
+
+#account{
+    font-family: 'Roboto Slab', serif;
+}
+
