@@ -15,11 +15,13 @@
             <?php } ?>
 
                 <div class="container">
-                <label for="uname"><b>Username</b></label>
-                <input type="text" placeholder="Enter your Registered Email-ID" name="uname" required>
-
+                <label for="uname"><b>Username</b></label><br>
+                <input type="text" placeholder="Enter your Registered Email-ID" name="uname"  
+                style=" width: 100%;  padding: 12px 20px;  margin: 8px 0;  display: inline-block;  border: 1px solid #ccc; box-sizing: border-box;" required>
                 <label for="psw"><b>Password</b></label>
-                <input type="password" placeholder="Enter Password" id="logpass" name="psw" required>
+                <input type="password" placeholder="Enter Password" name="psw" 
+                style=" width: 100%;  padding: 12px 20px;  margin: 8px 0;  display: inline-block;  border: 1px solid #ccc; box-sizing: border-box;"
+                required>
 
                 <button id="login-btn" type="submit">Login</button>
 
