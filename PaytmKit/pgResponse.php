@@ -42,7 +42,7 @@ if($isValidChecksum == "TRUE") {
 				$sql1 = "SELECT `customer_emailID` FROM `orders` WHERE `order_id` = '$order_id'";
 				$res1 =mysqli_query($conn, $sql1);
 				$row = mysqli_fetch_assoc($res1);
-				$_SESSION['user_name']= $row['emailID'];
+				$_SESSION['user_name']= $row['customer_emailID'];
 				echo "Redirecting to My Profile....";
 				echo"<script> setTimeout(()=>{
 					window.location.href='http://localhost/OrderSweets/MyAccount.php';

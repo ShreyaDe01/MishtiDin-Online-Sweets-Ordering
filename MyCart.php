@@ -142,7 +142,7 @@ include('admin/dbconnection.php');
           <?php if(isset($_SESSION['user_name'])){//user logged in
             //print_r($_SESSION['cart']);
             $_SESSION['cart-list'] = json_encode($_SESSION['cart']);
-            echo "<br>"; echo $_SESSION['cart-list'];?>
+            //echo "<br>"; echo $_SESSION['cart-list'];?>
             <form method="POST" action="checkout.php">
               <input type="hidden" name="nitems" value="<?php echo $count;?>">
               <input type="hidden" name="amt" value="<?php echo $totalPrice;?>">

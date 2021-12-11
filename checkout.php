@@ -39,9 +39,12 @@ include('admin/dbconnection.php');
 <?php
 if(isset($_POST['checkout'])){
     //cart details
-    echo $number = $_POST['nitems'];echo "<br>";
-    echo "list = "; echo $list = $_SESSION['cart-list'];echo "<br>";
-    echo "Total Amount = "; echo $amount = $_POST['amt'];
+    //echo 
+    $number = $_POST['nitems'];//echo "<br>";
+    //echo "list = "; echo 
+    $list = $_SESSION['cart-list'];//echo "<br>";
+    //echo "Total Amount = "; 
+    echo $amount = $_POST['amt'];
     //customer details
     $email = $_SESSION['user_name'];
     $sql1 = "SELECT * FROM `customer` WHERE `emailID` = '$email'";
