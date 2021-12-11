@@ -62,11 +62,11 @@
         // or not in our Database
         if($num == 0) {
             if(($password == $cpassword) && $exists==false) {
-                //$hash = password_hash($password, PASSWORD_DEFAULT);
+                $hash = password_hash($password, PASSWORD_DEFAULT);
                     
                 // Password Hashing is used here. 
                 $sql = "INSERT INTO `customer` ( `name`, `password`, `emailID`, `phoneNo`) 
-                        VALUES ('$name', '$password', '$email', '$phone')";
+                        VALUES ('$name', '$hash', '$email', '$phone')";
         
                 $result = mysqli_query($conn, $sql);
         
