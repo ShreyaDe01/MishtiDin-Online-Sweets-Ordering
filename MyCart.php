@@ -60,7 +60,7 @@ include('admin/dbconnection.php');
             <?php include('admin/signup.php') ?>
           <?php }
           else{//user logged in ?>
-          <a>My Account</a>
+          <a href="MyAccount.php">My Account</a>
           <a href="admin/logout.php">Logout</a>
           <?php } ?>
         </div>
