@@ -44,7 +44,7 @@ if(isset($_POST['checkout'])){
     //echo "list = "; echo 
     $list = $_SESSION['cart-list'];//echo "<br>";
     //echo "Total Amount = "; 
-    echo $amount = $_POST['amt'];
+    /*echo*/ $amount = $_POST['amt'];
     //customer details
     $email = $_SESSION['user_name'];
     $sql1 = "SELECT * FROM `customer` WHERE `emailID` = '$email'";
