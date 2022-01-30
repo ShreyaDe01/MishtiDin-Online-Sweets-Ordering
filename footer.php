@@ -78,7 +78,7 @@
 
         <!-- Copyright -->
         <div class="text-center p-3">
-        © 2021 Created by Shreya De
+        © 2021 | Personal Project designed by <a href="https://www.linkedin.com/in/shreya-de-b42562204/">Shreya De</a>
         </div>
         <!-- Copyright -->
     </footer>
