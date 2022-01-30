@@ -1,8 +1,8 @@
 <?php
-$db_host = "localhost";
-$db_user = "root";
-$db_password = "";
-$db_name = "mishtidin";
+$db_host = "sql305.epizy.com";
+$db_user = "epiz_30942477";
+$db_password = "7xhM4hUOR2tYR";
+$db_name = "epiz_30942477_mishtidin";
 $db_port=3306;
 
 
